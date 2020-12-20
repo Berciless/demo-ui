@@ -1,0 +1,18 @@
+.buttons{
+    width: 90vw;
+}
+.inputs{
+    width: 100%;
+    padding: 20px;
+}
+.input{
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #28a745;
+    margin:auto;
+    padding: 10px;
+    width: 45% !important;
+}
+.input:focus{
+    outline: none;
+}
