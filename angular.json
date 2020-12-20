@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -62,7 +63,10 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "demo-ui:build"
+            "browserTarget": "demo-ui:build",
+            "ssl":true,
+            "sslKey": "ssl/localhost.key",
+            "sslCert": "ssl/localhost.crt"
           },
           "configurations": {
             "production": {
